@@ -1,0 +1,87 @@
+Sorted Master List with GPAs
+
+Anderson,Andy      Sophomore      3.01
+Brown,Bill      Sophomore      2.55
+Brown,David      Freshman      2
+Carson,Jim      Sophomore      2.03
+Crooks,Cathy      Freshman      1.99
+Dennis,Susan      Senior      2.06
+Edwards,James      Sophomore      3
+Fredericks,Mary      Freshman      2.89
+Green,Barbara      Sophomore      3.67
+Gregg,Howard      Senior      2.44
+Holmes,Wendy      Senior      2.56
+Johnson,Jane      Junior      3.75
+Johnson,Jim      Junior      3.05
+Koran,Korn      Junior      3.5
+Nicholas,Judy      Senior      3.69
+Potter,Pam      Senior      2.98
+Roberts,Rachel      Sophomore      4
+Robertson,Jully      Junior      2.78
+Smith,Sam      Junior      2.14
+Smith,Sheila      Senior      2.99
+Walsh,Fred      Junior      4
+White,Bob      Sophomore      1.64
+Williams,Leonard      Freshman      1.85
+Williamson,Walt      Sophomore      2.95
+Wiser,Bud      Freshman      4
+
+Average GPA of all students: 2.8608
+
+-----------------------------------------
+Sorted Freshman List with GPAs
+
+Name               Class       GPA
+-----------------------------------------
+Brown,David      Freshman      2
+Crooks,Cathy      Freshman      1.99
+Fredericks,Mary      Freshman      2.89
+Williams,Leonard      Freshman      1.85
+Wiser,Bud      Freshman      4
+
+Average GPA of Freshman: 2.546
+
+-----------------------------------------
+Sorted Sophomore List with GPAs
+
+Name               Class       GPA
+-----------------------------------------
+Anderson,Andy      Sophomore      3.01
+Brown,Bill      Sophomore      2.55
+Carson,Jim      Sophomore      2.03
+Edwards,James      Sophomore      3
+Green,Barbara      Sophomore      3.67
+Roberts,Rachel      Sophomore      4
+White,Bob      Sophomore      1.64
+Williamson,Walt      Sophomore      2.95
+
+Average GPA of Sophomores: 2.85625
+
+-----------------------------------------
+Sorted Junior List with GPAs
+
+Name               Class       GPA
+-----------------------------------------
+Johnson,Jane      Junior      3.75
+Johnson,Jim      Junior      3.05
+Koran,Korn      Junior      3.5
+Robertson,Jully      Junior      2.78
+Smith,Sam      Junior      2.14
+Walsh,Fred      Junior      4
+
+Average GPA of Juniors: 3.20333
+
+-----------------------------------------
+Sorted Senior List with GPAs
+
+Name               Class       GPA
+-----------------------------------------
+Dennis,Susan      Senior      2.06
+Gregg,Howard      Senior      2.44
+Holmes,Wendy      Senior      2.56
+Nicholas,Judy      Senior      3.69
+Potter,Pam      Senior      2.98
+Smith,Sheila      Senior      2.99
+
+Average GPA of Seniors: 2.78667
+

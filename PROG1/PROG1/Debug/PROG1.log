@@ -1,2 +1,17 @@
 ﻿  Source.cpp
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Source.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(77,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(79,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(107,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(133,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(159,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(185,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(210,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(218,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(238,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(246,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(265,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(291,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(317,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Documents\GitHub\CIS3501\PROG1\PROG1\Header.h(343,20): warning C4018: '<': signed/unsigned mismatch
   PROG1.vcxproj -> C:\Users\User\Documents\GitHub\CIS3501\PROG1\Debug\PROG1.exe
