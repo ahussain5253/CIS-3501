@@ -1,45 +1,35 @@
 #include <iostream>
-#include <vector>
-#include <string>
 #include <fstream>
-#include <cstdlib>
-
+#include <string>
 using namespace std;
 
-vector<string*> populatePointersVector() {
+class Student {
 
-	vector<string*> pointerNames;
+public:
 
-	ifstream input;
-	input.open("Input.txt");
+	void setName(string name) { this->name = name; }
+	string getName() { return name; }
+	void printName() { cout << name << endl; }
 
-	while (!input.eof()) {
+private:
 
-		string name;
+	string name;
+};
 
-		input >> name;
+void sortArray(Student** studentPtr) {
 
-		pointerNames.push_back(&name);
 
-	}
+	for (int i = 0; i < 25; i++) {
 
-	return pointerNames;
+		for (int j = i + 1; j < 25; j++) {
 
-}
+			Student* temp;
 
-void sortNames(vector<string*> &Names) {
+			if (studentPtr[i]->getName() > studentPtr[j]->getName()) {
 
-	for (int i = 0; i < Names.size(); i++) {
-
-		for (int j = i + 1; j < Names.size(); j++) {
-
-			string* temp;
-
-			if (Names.at(i) > Names.at(j)) {
-
-				temp = Names.at(i);
-				Names.at(i) = Names.at(j);
-				Names.at(j) = temp;
+				temp = studentPtr[i];
+				studentPtr[i] = studentPtr[j];
+				studentPtr[j] = temp;
 
 			}
 
@@ -50,28 +40,57 @@ void sortNames(vector<string*> &Names) {
 
 }
 
+void writeToFile(Student** studentPtr) {
+
+	ofstream file;
+	file.open("Output.txt");
+
+	file << "Unsorted list of student names:" << endl << endl;
+	for (int i = 0; i < 25; i++) { file << studentPtr[i]->getName() << endl;}
+	file << endl << endl;
+
+	sortArray(studentPtr);
+	
+	file << "Sorted list of student names:" << endl << endl;
+	for (int i = 0; i < 25; i++) { file << studentPtr[i]->getName() << endl; }
+
+}
+
+
 int main() {
 
-
-	vector<string*> pointerNames;
+	Student* studentPtr[25];
 
 	ifstream input;
 	input.open("Input.txt");
 
-	while (!input.eof()) {
+	for (int i = 0; i < 25; i++) {
+
+		studentPtr[i] = new Student;
 
 		string name;
-
 		input >> name;
 
-		pointerNames.push_back(&name);
+		studentPtr[i]->setName(name);
 
 	}
 
-	cout << *pointerNames.at(0);
+	writeToFile(studentPtr);
+
+	cout << "Unsorted list of student names: " << endl << endl;
+	for (int i = 0; i < 25; i++) { studentPtr[i]->printName(); }
+	cout << endl << endl;
+
+	sortArray(studentPtr);
+
+	cout << "Alphebetically sorted list of student names: " << endl << endl;
+	for (int i = 0; i < 25; i++) { studentPtr[i]->printName(); }
 
 
-	
-	
 	return 0;
+
+
 }
+
+
+
