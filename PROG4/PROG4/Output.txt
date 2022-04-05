@@ -1,0 +1,5 @@
+Preorder Transversal:  14 4 3 9 7 5 4 5 7 9 15 14 18 16 20
+
+Inorder Transversal:  3 4 4 5 5 7 7 9 9 14 14 15 16 18 20
+
+Postorder Transversal:  3 4 5 5 7 7 9 9 1 14 16 20 18 15 14

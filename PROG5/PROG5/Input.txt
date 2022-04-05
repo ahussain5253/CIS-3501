@@ -1,0 +1,13 @@
+Smith,Sheila	2.99
+Anderson,Andy	3.01
+Wiser,Bud	4.00
+Robertson,Jully	2.78
+Koran,Korn	3.50
+Smith,Sam	2.14
+Johnson,Jim	3.05
+Johnson,Jane	3.75
+Potter,Pam	2.98
+Brown,Bill	2.55
+Crooks,Cathy	1.99
+Gregg,Howard	2.44
+Nicholas,Judy	3.69
